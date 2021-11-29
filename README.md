@@ -18,3 +18,5 @@
 * [icons8.com](https://icons8.com/)
 * [Pexels.com](https://www.pexels.com/)
 * [Platzi.com](https://www.platzi.com/)
+* [ILoveIMG.com](https://www.iloveimg.com/)
+* [Befunky.com](https://www.befunky.com/)
