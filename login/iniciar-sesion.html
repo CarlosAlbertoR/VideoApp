@@ -1,40 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles-login.css">
-    <title>Inicio de Sesión</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles-login.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/000000/external-video-skill-building-inipagistudio-mixed-inipagistudio.png"
+      type="image/x-icon"
+    />
+    <title>Sign in</title>
+  </head>
+  <body>
     <header class="header">
-        <img class="header__img" src="./img/logo-platzi-video-BW2.png" alt="Logo">
+      <img
+        class="header__img"
+        src="./img/logo-platzi-video-BW2.png"
+        alt="Logo"
+      />
     </header>
     <section class="login">
-        <section class="login__container">
-            <h2>Inicio Sesión</h2>
-            <form class="login__container--form" action="../principal/index.html">
-                <input class="input" type="text" placeholder="Email">
-                <input class="input" type="text" placeholder="Contraseña">
-                <button class="button" submit>Iniciar Sesión</button>
-                <div class="login__container--remember-me">
-                    <label>
-                        <input type="checkbox" name="" id="cbox1" value="remember-me">Recuerdame
-                    </label>
-                    <a href="#">Olvidé mi contraseña</a>
-                </div>
-            </form>
-            <section class="login__container--social-media">
-                <div><img src="./img/google-icon.png" alt="Google">Iniciar Sesión con Google</div>
-                <div><img src="./img/twiter-icon.png" alt="Twitter">Iniciar Sesión con Twitter</div>
-            </section>
-            <p class="login__container--register">No tienes ninguna cuenta. <a href="./registro.html">Registrate</a></p>
+      <section class="login__container">
+        <h2>Sign in</h2>
+        <form class="login__container--form" action="../principal/index.html">
+          <input class="input" type="text" placeholder="Email" />
+          <input class="input" type="password" placeholder="Password" />
+          <button class="button" submit>Sign in</button>
+          <div class="login__container--remember-me">
+            <label>
+              <input
+                type="checkbox"
+                name=""
+                id="cbox1"
+                value="remember-me"
+              />Remember me
+            </label>
+            <a href="#">Forgot password?</a>
+          </div>
+        </form>
+        <section class="login__container--social-media">
+          <div>
+            <img src="./img/google-icon.png" alt="Google" />Sign in with Google
+          </div>
+          <div>
+            <img src="./img/twiter-icon.png" alt="Twitter" />Sign in with
+            Twitter
+          </div>
         </section>
+        <p class="login__container--register">
+          I don't have any account. <a href="./registro.html">Sign up</a>
+        </p>
+      </section>
     </section>
     <footer class="footer">
-        <a href="#">Términos de uso</a>
-        <a href="#">Declaración de privacidad</a>
-        <a href="#">Centro de ayuda</a>
+      <a href="#">Terms of use</a>
+      <a href="#">Privacy statement</a>
+      <a href="#">Help center</a>
     </footer>
-</body>
+  </body>
 </html>

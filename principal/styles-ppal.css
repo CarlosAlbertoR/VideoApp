@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #6930c3;
   font-family: "Mulish", sans-serif;
@@ -32,7 +36,8 @@ header {
   width: 100px;
 }
 
-.header__menu:hover ul, ul:hover {
+.header__menu:hover ul,
+ul:hover {
   display: block;
 }
 
@@ -116,6 +121,18 @@ header {
   white-space: nowrap;
 }
 
+.carousel::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+.carousel::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+.carousel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .carousel--item {
   background-color: red;
   border-radius: 20px;
@@ -150,7 +167,11 @@ header {
 }
 
 .carousel--item__details {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   bottom: 0;
   display: flex;
   flex-direction: column;
